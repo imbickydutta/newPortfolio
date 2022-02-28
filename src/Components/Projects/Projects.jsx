@@ -224,7 +224,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://searchstarwars.netlify.app/character.html"
+                  href="https://searchstarwars.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
