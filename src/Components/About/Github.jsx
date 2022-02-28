@@ -13,7 +13,7 @@ export const Github = () => {
   return (
     <>
       <div className="section" data-aos="fade-right">
-        <h2 className="section__title">
+        <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
         <Githubcalendar
