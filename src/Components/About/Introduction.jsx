@@ -6,7 +6,7 @@ export const Introduction = () => {
   return (
     <>
       <section id="#about">
-        <div className="section" data-aos="fade-right">
+        <div className="section dark" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
