@@ -4,7 +4,7 @@ import "./Header.css";
 export const Header = () => {
   return (
     <>
-      <header className="header center">
+      <header className="header center dark">
         <h3>
           <a href="#home" className="link">
             imbickydutta

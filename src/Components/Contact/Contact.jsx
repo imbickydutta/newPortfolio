@@ -11,7 +11,7 @@ export const Contact = () => {
         <h2 className="section__title" data-aos="fade-right">
           Get in <span className="different">Touch</span>
         </h2>
-        <div className="contactcontainer" data-aos="fade-right">
+        <div className="contactcontainer dark" data-aos="fade-right">
           <a
             href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/"
             target="_blank"

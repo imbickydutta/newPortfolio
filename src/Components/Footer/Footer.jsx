@@ -4,7 +4,7 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <>
-      <div className="section">
+      <div className="section dark">
         <a
           href="https://github.com/imbickydutta"
           rel="noreferrer"
