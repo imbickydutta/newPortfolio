@@ -6,11 +6,11 @@ export const Introduction = () => {
   return (
     <>
       <section id="#about">
-        <div className="section dark" data-aos="fade-right">
+        <div className="section" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
-          <div className="introduction">
+          <div className="introduction dark">
             <div className="introduction_logocontainer">
               <img
                 src="https://avatars.githubusercontent.com/u/86409991?v=4"
