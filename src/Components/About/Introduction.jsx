@@ -1,8 +1,12 @@
 import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import { ThemeContext } from "../../Context/theme";
+
 
 export const Introduction = () => {
+  const [{ themename }] = React.useContext(ThemeContext);
+
   return (
     <>
       <section id="#about">
@@ -10,7 +14,7 @@ export const Introduction = () => {
           <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
-          <div className="introduction dark">
+          <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img
                 src="https://avatars.githubusercontent.com/u/86409991?v=4"

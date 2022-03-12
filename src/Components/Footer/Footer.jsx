@@ -1,10 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import { ThemeContext } from "../../Context/theme";
 
 export const Footer = () => {
+  const [{ themename }] = React.useContext(ThemeContext);
+
   return (
     <>
-      <div className="section dark">
+      <div className={"section " + themename}>
         <a
           href="https://github.com/imbickydutta"
           rel="noreferrer"
