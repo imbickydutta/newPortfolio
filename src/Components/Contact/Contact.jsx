@@ -44,9 +44,9 @@ export const Contact = () => {
           >
             <BsInstagram className="twitter" />
           </a>
-          <a href="tel:+917001347896" target="_blank" rel="noreferrer">
-            <BsFillTelephoneFill className="phone" />
-          </a>
+//           <a href="tel:+917001347896" target="_blank" rel="noreferrer">
+//             <BsFillTelephoneFill className="phone" />
+//           </a>
         </div>
       </div>
     </>
