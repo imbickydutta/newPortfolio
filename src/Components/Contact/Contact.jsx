@@ -8,7 +8,9 @@ import { ThemeContext } from "../../Context/theme";
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
-
+// <a href="tel:+917001347896" target="_blank" rel="noreferrer">
+//             <BsFillTelephoneFill className="phone" />
+//           </a>
   return (
     <>
       <div className="section">
@@ -44,9 +46,7 @@ export const Contact = () => {
           >
             <BsInstagram className="twitter" />
           </a>
-//           <a href="tel:+917001347896" target="_blank" rel="noreferrer">
-//             <BsFillTelephoneFill className="phone" />
-//           </a>
+         
         </div>
       </div>
     </>
